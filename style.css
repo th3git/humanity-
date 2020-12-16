@@ -22,7 +22,7 @@ body{
   padding: 4em;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
-  background-color: 000000;  
+  background-color: rgb(000,000,000);  
 }
 .line-1{
     position: relative;
