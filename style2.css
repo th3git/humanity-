@@ -1,0 +1,21 @@
+* {
+    color: white;
+}
+body {
+    margin: 0;
+    padding: 5px;
+    background: black;
+}
+.contact {
+    text-align: right;
+}
+span {
+    color: red
+}
+a:active {
+    color: red
+}
+.quote {
+    text-align: center;
+    position: relative
+}
