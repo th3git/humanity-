@@ -1,0 +1,103 @@
+* {
+    color: white;
+}
+body {
+    background: black;
+    margin: 0;
+    padding: 5px;
+}
+img {
+  width:100%;
+  height:100%;
+}
+#pub {
+  color: black
+}
+.btnpub {
+  color: black;
+  display: block;
+  background-color: white;
+  border: 2px solid darkred;
+  font-size: 24px;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+  position: relative;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btnpub:hover {
+  background-color: darkred;
+}
+span {
+    color: red
+}
+.container {
+    position: relative;
+    width: 33.33%;
+    float: left;
+  }
+  
+  .image {
+    opacity: 1;
+    display: inline;
+    width: 100%;
+    height: 400px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: darkred;
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+    color: darkred;
+}
+.contact {
+    text-align: right;
+}
+#quote {
+    text-align: center;
+}
+#auth {
+    text-align: right;
+}
+.hr1 {
+  border: 1px solid red;
+}
