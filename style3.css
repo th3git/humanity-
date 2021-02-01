@@ -8,7 +8,6 @@ body {
 }
 img {
   width:100%;
-  height:100%;
 }
 #pub {
   color: black
@@ -42,7 +41,7 @@ span {
     opacity: 1;
     display: inline;
     width: 100%;
-    height: 400px;
+    height: 600px;
     transition: .5s ease;
     backface-visibility: hidden;
     border-bottom: 3px solid red;
@@ -100,4 +99,25 @@ a:active {
 }
 .hr1 {
   border: 1px solid red;
+}
+/*img grid biosL test2*/
+.rowbi{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.columnbi {
+  flex: 20%;
+  padding: 0 4px;
+}
+.columnbi img {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+.repolines{
+  text-align:center;
+  height:300px; /*make height same # as # of essays + a few pixels xtra*/
+  width:auto;
+  border-left:2px solid #FFF;
+  border-right:2px solid #FFF;
 }
