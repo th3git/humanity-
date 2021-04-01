@@ -117,7 +117,7 @@ a:active {
 }
 .repolines{
   text-align:center;
-  height:300px; /*make height same # as # of essays + a few pixels xtra*/
+  height:60px; /*make height same # as # of essays + a few pixels xtra*/
   width:auto;
   border-left:2px solid #FFF;
   border-right:2px solid #FFF;
